@@ -1,0 +1,207 @@
+/* @group ----- Generic HTML Elements ----- */
+
+html {
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+}
+
+h1 {
+    font-size: 2.25 * $scalable-font-size;
+    line-height: 2 * $scalable-line-height;
+    margin: 0 0 $spacing-unit;
+}
+
+h2 {
+    font-size: 2 * $scalable-font-size;
+    line-height: 2 * $scalable-line-height;
+    margin: $spacing-unit 0;
+}
+
+h3 {
+    font-size: 1.75 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+    margin: $spacing-unit 0;
+}
+
+h4 {
+    margin: $spacing-unit 0;
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+}
+
+    /* @group ----- Form elements ----- */
+
+    input,
+    textarea,
+    button,
+    select {
+        font-size: 1.5 * $scalable-font-size;
+        line-height: 1.5 * $scalable-line-height;
+        margin: 0;
+    }
+
+    form .field {
+        align-items: center;
+    }
+
+    form .field .two.columns,
+    form .field > label,
+    form .field > .label {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: (.25 * $spacing-unit);
+    }
+
+    form .field .five.columns,
+    form .field > .inputs {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    /* @end */
+
+/* @end */
+
+/* @group ----- Containers ----- */
+
+#content {
+    padding: $spacing-unit $spacing-unit 0;
+}
+
+/* @end */
+
+/* @group ----- Navigation ----- */
+
+.secondary-nav li a,
+.pagination,
+.pagination input[type="text"],
+.item-pagination {
+    font-size: $scalable-font-size;
+}
+
+
+/* @end */
+
+/* @group ----- Header ----- */
+
+header {
+    padding: (.5 * $spacing-unit) $spacing-unit;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+#top-nav > ul {
+    display: block;
+    overflow: scroll;
+    padding-bottom: (4 * $spacing-unit);
+}
+
+#top-nav ul ul ul li {
+    font-size: $scalable-font-size;
+    line-height: $scalable-line-height;
+}
+
+#top-nav>ul>li {
+    width: 100%;
+}
+
+/* @end */
+
+/* @group ----- Footer ----- */
+
+footer {
+    padding: 0 $spacing-unit $spacing-unit;
+}
+
+/* @end */
+
+/* @group ----- Home ----- */
+
+div#featured {
+    font-weight: normal;
+}
+
+#featured .record {
+    min-height: 0;
+    width: 100% !important;
+}
+
+#featured .featured-meta {
+    padding: 0;
+    max-width: 100%;
+}
+
+/* @end */
+
+/* @group ----- Browse ----- */
+
+.browse #outputs,
+#sort-links {
+    font-size: $scalable-font-size;
+}
+
+.records .hentry {
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+    width: calc(50% - #{$spacing-unit});
+}
+
+.collection.hentry h2 {
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+}
+
+/* @end */
+
+/* @group ----- Show ----- */
+
+.element h3,
+.element-text {
+    font-size: 1.5 * $scalable-font-size;
+    width: 100%;
+    text-align: left;
+}
+
+.element-text:not(:first-of-type) {
+    margin-top: (.25 * $spacing-unit);
+    border-top: 1px solid;
+    padding-top: ((.25 * $spacing-unit) - 1px);
+}
+
+/* @end */
+
+/* @group ----- Advanced Item Search ----- */
+
+button.add_search {
+    margin-left: 0;
+    font-size: 1.5 * $scalable-font-size;
+}
+
+/* @end */
+
+/* @group ----- Exhibits ----- */
+
+#exhibit-pages {
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+    width: 100%;
+    float: none;
+    margin: 0 0 $spacing-unit;
+}
+
+#exhibit-pages .subpages-toggle:before {
+    font-size: 1.5 * $scalable-font-size;
+    line-height: 1.5 * $scalable-line-height;
+    margin-top: (-.3625 * $spacing-unit);
+    padding-right: (.125 * $spacing-unit);
+}
+
+#exhibit-pages ~ * {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+}
+
+/* @end */

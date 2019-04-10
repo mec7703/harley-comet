@@ -1,0 +1,66 @@
+# Translation for the Collection Tree plugin for Omeka.
+# Copyright (C) 2012 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# 
+# Translators:
+# yennylin <yennylin1234@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-SimpleVocab/issues\n"
+"POT-Creation-Date: 2012-11-30 21:49-0500\n"
+"PO-Revision-Date: 2014-01-11 22:29+0000\n"
+"Last-Translator: yennylin <yennylin1234@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/omeka/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: CollectionTreePlugin.php:253 CollectionTreePlugin.php:262
+#: views/shared/collections/collection-tree-list.php:1
+#: views/shared/index/index.php:1
+msgid "Collection Tree"
+msgstr "合集樹"
+
+#: CollectionTreePlugin.php:274
+msgid "No parent collection"
+msgstr "沒有上層合集"
+
+#: models/CollectionTree.php:27 models/CollectionTree.php:35
+msgid "Parent Collection"
+msgstr "上層合集"
+
+#: models/CollectionTree.php:28
+msgid "A collection cannot be a parent to itself."
+msgstr "一個合集無法成為自己的上層。"
+
+#: models/CollectionTree.php:36
+msgid ""
+"A collection cannot be assigned to a collection in its descendant tree."
+msgstr "一個合集無法再指派給它的下層合集。"
+
+#: views/admin/collections/collection-tree-parent-form.php:3
+msgid "Select a Parent Collection"
+msgstr "選擇一個上層合集"
+
+#: views/admin/collections/collection-tree-parent-form.php:6
+msgid ""
+"A collection cannot be a parent to itself, nor can it be assigned to a "
+"collection in its descendant tree."
+msgstr "一個合集無法成為自己的上層，或是被指派給自己的下層合集。"
+
+#: views/admin/plugins/collection-tree-config-form.php:3
+msgid "Order alphabetically?"
+msgstr "依字母排序？"
+
+#: views/admin/plugins/collection-tree-config-form.php:6
+msgid ""
+"Order the collection tree alphabetically? This does not affect the order of "
+"the collections browse page."
+msgstr "合集樹依字母排序？這不會影響瀏覽合集頁面的順序。"
+
+#: views/shared/index/index.php:5
+msgid "There are no collections."
+msgstr "沒有合集。"
